@@ -24,3 +24,17 @@ def my_method
 end
 ```
 To execute this, you'd just run your ruby file `ruby file-name.rb` in terminal. You'll immediately get dropped into the environment of that method in terminal. From there, you can call other methods, variables, etc. and get a sense of what they truly are and do.
+
+Once you have all your data, you'll want to start thinking about how you want to organize it. If you're getting tweets, maybe you want to create a hash with key-value pairs for the tweet body and tweet time. If you're getting the weather, you'd want to maybe create a hash for storing wind-speed, humidity, min-temp, and max-temp.
+
+An example might look like this:
+```RUBY
+daily_weather = {
+  :wind_speed => my_wind_speed_scraped_data
+  :humidity_index => humidity_scraped_data
+  :min_temp => min_temp_scraped_data
+  :max-temp => max_temp_scraped_data
+}
+```
+
+Once you have an idea of how you want to collect your data, you'll want to actually build it into that datatype. You can go back and take a look at the scraping-kickstarter lab for a refresher on how we collected that data from kickstarter into a hash.
