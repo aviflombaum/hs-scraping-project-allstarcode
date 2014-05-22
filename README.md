@@ -8,7 +8,7 @@
 We're going to use this as the starting point for your final project. Part of building a web application is learning how to break the whole down into it's much smaller and more manageable pieces. 
 Getting the data is the first part.
 
-So the very first step is to think about what kind of data you want to use in your app. Are you interested in a specific person's tweets? When you're tagged in a photo in facebook? Maybe when a certain friend checks in on foursquare? Maybe your favorite sports's stats on game nights?
+So the very first step is to think about what kind of data you want to use in your app. Are you interested in a specific person's tweets? When you're tagged in a photo in facebook? Maybe when a certain friend checks in on foursquare? Maybe your favorite sports's stats on game nights? Make sure that the site you have keeps track of the time that something is posted. It will be hard to eventually automate all of this if there isn't a time of when things are posted.
 
 Once you've made a decision, we're going to use Nokogiri to scrape. You'll need to remember to require both nokogiri and open-uri in your ruby file in order to make HTTP calls to a site's content.
 
