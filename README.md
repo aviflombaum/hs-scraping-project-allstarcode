@@ -1,5 +1,5 @@
 ---
-  tags: scraping, nokogiri kids
+  tags: scraping, nokogiri, kids
   languages: ruby
 ---
 
